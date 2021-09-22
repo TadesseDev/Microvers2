@@ -1,8 +1,10 @@
 html{
+    color: white;
     background-color: #1A1C25;
 }
 
 h1{
+    color: white;
     display: block;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -10,7 +12,7 @@ h1{
     font-weight: 600;
 }
 
-h2{
+p{
     display: block;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -21,6 +23,8 @@ h2{
 
 
 form{
+    margin: 0 5%;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     background-color: #2A2A47;
@@ -28,7 +32,18 @@ form{
 
 }
 
+form label{
+    align-self: start;
+
+}
+
 form *:not(:last-child){
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+input{
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 5px;
 }
 
