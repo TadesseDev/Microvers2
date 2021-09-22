@@ -47,3 +47,25 @@ input{
     padding: 5px;
 }
 
+
+
+button{
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+   background-color: #36AF65;
+   border-radius: 5px;
+   color: white;
+   border-style: none;
+   padding: 20px;
+}
+
+html{
+    padding: 30px;
+}
+
+option{
+    padding:5px ;
+}
+
+
+
